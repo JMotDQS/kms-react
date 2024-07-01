@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import {ReactComponent as Logo} from './images/DQS_logo.svg';
 
 const Header = () => {
   return (
     <header>
-        <h1>Groceries List</h1>
+        <Logo className='nav-logo' />
+        <p className='header-title'>Key Master Application&trade;</p>
     </header>
   )
 }
