@@ -71,7 +71,7 @@ const Content = () => {
               <input
                 type='checkbox'
                 onChange={() => handleCheck(item.id)}
-                //checked={item.checkedOut}
+                checked={item.checkedOut}
               />
               <label
                 style={(item.checkedOut) ? {textDecoration: 'line-through'} : null}
