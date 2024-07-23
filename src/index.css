@@ -8,9 +8,9 @@
 }
 
 :root {
-	--color-kms-primary: hsla(57, 81, 57, 1);
-	--color-kms-shadow: hsla(57, 81, 33, 1);
-	--color-kms-highlight: hsla(57, 81, 84, 1);
+	--color-kms-primary: hsla(57, 81%, 57%, 1);
+	--color-kms-shadow: hsla(57, 81%, 21%, 1);
+	--color-kms-highlight: hsla(57%, 81%, 84, 1);
 }
 
 body {
